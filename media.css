@@ -1,0 +1,224 @@
+@media screen and (max-width:350px) {
+    main{
+        background-color: #151515;
+    }
+    .button-area {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+    }
+
+    .button {
+        width: 40px;
+        color: aliceblue;
+    }
+
+    .button h3 {
+        display: none;
+    }
+
+    .vid-box-container {
+        height: 99%;
+    }
+
+    #host {
+        width: 100%;
+        height: 60%;
+        z-index: 2;
+    }
+
+    .vid-box {
+        width: 100%;
+        height: 18.5%;
+    }
+
+    .student-img {
+        height: 70px;
+        width: 70px;
+    }
+
+    /* CHat Section */
+
+    #chat-section {
+        position: absolute;
+        width: 100vw;
+        z-index: 2;
+    }
+
+    /* Footer  */
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
+    .left {
+        display: none;
+    }
+
+    .mid {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .for-mobile-view {
+        display: flex;
+    }
+    
+}
+
+@media (min-width:351px) and (max-width:600px) {
+
+    .button-area {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+    }
+
+    .button {
+        width: 40px;
+        color: aliceblue;
+    }
+
+    .button h3 {
+        display: none;
+    }
+
+    .vid-box-container {
+        height: 99%;
+    }
+
+    #host {
+        width: 100%;
+        height: 60%;
+    }
+
+    .vid-box {
+        width: 30%;
+        height: 18%;
+    }
+
+    .student-img {
+        height: 70px;
+        width: 70px;
+    }
+
+    /* CHat Section */
+
+    #chat-section {
+        position: absolute;
+        width: 100vw;
+        z-index: 2;
+    }
+
+    /* Footer  */
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
+    .left {
+        display: none;
+    }
+
+    .mid {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .for-mobile-view {
+        display: flex;
+    }
+
+}
+
+@media (min-width:601px) and (max-width:800px) {
+    .button-area {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+    }
+
+    .button {
+        width: 40px;
+        color: aliceblue;
+    }
+
+    .button h3 {
+        display: none;
+    }
+    .vid-box-container {
+        height: 100%;
+    }
+    #host {
+        width: 100%;
+        height: 60%;
+    }
+
+    .vid-box {
+        width: 30%;
+        height: 18%;
+    }
+
+    /* footer */
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
+    .left {
+        display: none;
+    }
+
+    .mid {
+        width: 60%;
+    }
+
+}
+@media (min-width:801px) and (max-width:1050px) {
+    .button-area {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+    }
+
+    .button {
+        width: 40px;
+        color: aliceblue;
+    }
+
+    .button h3 {
+        display: none;
+    }
+    .vid-box-container {
+        height: 100%;
+    }
+    #host {
+        width: 100%;
+        height: 60%;
+    }
+
+    #host {
+        width: 100%;
+        height: 50%;
+    }
+
+    .vid-box {
+        width: 31%;
+        height: 22%;
+    }
+
+    .student-img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .chat-section{
+        z-index: 33;
+    }
+    footer{
+        position: fixed;
+    }
+}

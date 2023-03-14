@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    display: flex;
+    height: 92vh;
+    /* height: -webkit-fill-available; */
+    background-color:#202124;
+}
+
+html {
+    height: -webkit-fill-available;
+  }
+.vid-section{
+    /* width: 72%; */
+    width: 100%;
+    height:auto;
+}
+.button-area{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 130px;
+    height: 40px;
+    background-color: #c63422;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.button h3{
+    padding: 4px;
+}
+
+/* Vid Box*/
+
+.vid-box-container{
+    margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 90%;
+    overflow: scroll;
+}
+
+.vid-box{
+    background-color: #3c4042;
+    width: 32%;
+    height: 31%;
+    margin: 5px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vid-box i{
+    color: #f4f8fa;
+}
+
+.icon{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #313537;
+}
+
+.student-img{
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+}
+
+.student-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.vid-box h3{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #f4f8fa;
+    font-size: 16px;
+}
+
+#host-icon{
+    background-color: #367fea;
+}
+.host-img{
+    height: 98%;
+    width: 98%;
+    overflow: hidden;
+    border-radius: 8px;
+    outline: 3px solid #367fea;
+}
+.host-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ----------------------Chat section--------- */
+.chat-section{
+    background-color: #ffffff;
+    position: relative;
+    top: 1vh;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    min-width: 280px;
+    height: 91vh;
+    width: 27%;
+    z-index: 3;
+}
+
+#chat-section:target{
+    display: flex;
+}
+
+.chat-heading{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 7%;
+}
+.chat-heading h3{
+    margin-left: 20px;
+}
+.chat-heading i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 25px;
+}
+.chat-caption{
+    width: 85%;
+    background-color: #eff3f4;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.chat-caption span{
+    font-size: 14px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.chat-box{
+    margin-top: 5%;
+    width: 85%;
+    height: 73%;
+    overflow: scroll;
+}
+.chats{
+    margin: 20px 2px;
+}
+.name{
+    display: inline-block;
+    min-width: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+
+}
+.timer{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight:600;
+    color: #838384;
+}
+
+.write-msg{
+    width: 85%;
+    height: 8%;
+    position: absolute;
+    bottom: 2%;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #eff3f4;
+}
+
+.write-msg span{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    color: #818282;
+    font-size: 30px;
+}
+textarea{
+    width: 85%;
+    height: auto;
+    margin: 8px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    resize: none;
+    text-align: left;
+    background-color: #eff3f4;
+}
+::placeholder{
+    color: #787c7d;
+    font-weight: 500;
+}
+
+/* Footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: auto;
+    height: 8vh;
+    background-color:#202124;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    width: 20%;
+    text-align: center;
+}
+.mid{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.mid span{
+    margin: 5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 26px;
+    background-color: #3c4042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* For Mobile Footer */
+.for-mobile-view{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.for-mobile-view a{
+    text-decoration: none;
+    color: #eff3f4;
+}
+.for-mobile-view span{
+    margin: 5px;
+    height: 50px;
+    width: 50px !important;
+    border-radius: 50%;
+    font-size: 27px;
+    background-color: #3c4042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* More options */
+footer{
+    position: fixed;
+    width: 100%;
+}
+#more-options{
+    position: absolute;
+    bottom: 1vh;
+    margin: 0 5vw;
+    width: 90vw;
+    background-color: #2b2c2f;
+    border-radius: 8px;
+    z-index: 2;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icons-name{
+    margin: 8px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: center; */
+    text-align: center;
+    width: 20%;
+    height: 70px;
+}
+.icons-name a{
+    color: #eff3f4;
+    font-size: 20px;
+    text-decoration:none;
+}
+.icons-name p{
+    font-size: 13px;
+}
+
+#more-options:target{
+    display: flex;
+}
+
+/* -------------------------------------- */
+#video{
+    background-color: #ea4231;
+}
+#call{
+    width: 65px;
+    border-radius: 40px;
+    background-color: #ea4231;
+    font-weight: 900;
+}
+.right{
+    width: 20%;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right span{
+    margin: 5px 10px;
+    color: #eff3f4;
+}
+
+.right i{
+    margin: 5px 10px;
+    color: #eff3f4;
+}
+
+
